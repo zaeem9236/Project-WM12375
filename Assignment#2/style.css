@@ -1,0 +1,134 @@
+
+.first_name{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 200px;
+    box-sizing: border-box;  
+}
+
+.last_name{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 203px;
+    box-sizing: border-box;  
+}
+
+.date_of_birth{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 178px;
+    box-sizing: border-box;  
+}
+
+.email_id{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 223px;
+    box-sizing: border-box;  
+}
+
+.mobile_number{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 160px;
+    box-sizing: border-box;  
+}
+
+.gender{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 229px;
+    box-sizing: border-box;  
+}
+
+.address{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 309px;
+    box-sizing: border-box;  
+}
+
+.city{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 257px;
+    box-sizing: border-box;  
+}
+
+.pincode{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 221px;
+    box-sizing: border-box;  
+}
+
+.state{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 247px;
+    box-sizing: border-box;  
+}
+
+.country{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 218px;
+    box-sizing: border-box;  
+}
+
+.hobby{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 220px;
+    box-sizing: border-box;  
+}
+
+.hobby_others{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 291px;
+    box-sizing: border-box;  
+}
+
+.courses{
+    /* width: 20%;
+    padding: 20px px; */
+    margin: 5px 140px;
+    box-sizing: border-box;  
+}
+
+.form_color{
+    background-color: rgb(89, 203, 211);  
+}
+
+p,table{
+    color: aliceblue;  
+    padding-left: 12px;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+}
+
+.picture{
+    margin: 5px 310px;  
+}
+
+.buttons{ 
+    margin: 5px 550px;
+}
+
+.submit_picture{ 
+    margin: 150px 500px;
+}
+
+.go_back{ 
+    margin:  90px;
+}
+
+.thankyou{ 
+    margin:  40px;
+}
+
+

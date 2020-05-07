@@ -1,0 +1,244 @@
+/* 1st ROW */
+.top_row{
+
+    background-color: rgb(125, 125, 240);
+    display: flex;
+    padding: 0% 0% 0% 0%;
+
+}
+.text{
+    color: white;
+    font-size: 16px;
+    margin: 13px 0px 0px 130px;
+}
+.list {
+    padding: 0px 0px 0px 25px;
+}
+.button1{
+    margin: 12px 0px 12px 20px;
+    padding: 5px 25px 5px 25px;
+}
+.button2{
+    margin: 12px 0px 12px 20px;
+    padding: 5px 25px 5px 25px;
+}
+.button3{
+    margin: 12px 0px 12px 20px;
+    padding: 5px 25px 5px 25px;
+}
+
+/* 2nd ROW */
+.B_row{
+    background-color:whitesmoke;
+    display: flex;
+}
+.saylani-logo{
+    margin: 20px 0px 0px 30px;
+}
+.nav_buttons_list{
+    margin: 10px 0px 20px 240px;
+}
+.nav_buttons{
+    display: inline-block;
+    padding: 0px 0px 0px 15px;
+}
+.button{
+    /* background-color: rgb(205, 226, 226); */
+    border-radius: 40px;
+    padding: 7px 14px 7px 14px;
+    font-size: 15px;
+    border: 0px;
+}
+.button:hover{
+    background-color: rgb(61, 45, 199);
+    color: white;
+}
+
+/* Main Picture */
+.main_picture{
+
+}
+
+/* Slide Bar */
+.slide_bar{
+    margin: -15px 0px 0px 70px;
+    background-color: rgb(44, 44, 224);
+    height: 30px;
+    width: 90%;
+}
+.slide_text{
+    color: white;
+}
+.slide_highlighted_text{
+    color: rgb(18, 206, 11);
+}
+
+/* Introduction */
+.introduction{
+    background-color:whitesmoke;
+}
+.intro_text{
+    text-align: center;
+    font-size: 35px;
+}
+.intro{
+    color: rgb(50, 36, 179);
+}
+.duction{
+    color: rgb(52, 121, 31);
+    margin: 0px 0px 0px -5px;
+}
+p{
+    margin: 25px 90px 25px 90px;
+    font-size: 20px;
+}
+.saylani_logo{
+    margin-left: 635px;
+}
+
+/* Record */
+.record{
+    /* height: 330px; */
+    /* width: 10%; */
+    background-color: rgb(37, 75, 180);
+    padding: 40px 0px 40px 0px;
+    
+}
+.pic{
+    text-align: center;
+}
+.stats{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+.stats_description{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.monthly{
+    color: rgb(40, 250, 40);
+}
+
+/* what_are_we_doing */
+.what_are_we_doing{
+    background-color: whitesmoke;
+    padding: 0px 0px 0px 0px;
+}
+.what_heading{
+    text-align: center;
+    color: rgb(63, 73, 207);
+    font-size: 35px;
+}
+.what_heading_2{
+    color: rgb(56, 189, 73);
+}
+.box_pic{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.box_text{
+    font-size: 19px;
+    color: rgb(23, 89, 211);
+}
+
+/* Upcoming projects */
+.upcoming_projects{
+    background-color: whitesmoke;
+    /* margin: 20px 0px 20px 0px; */
+    padding: 1px 0px 150px 0px;
+}
+.upcoming_projects_text{
+    color: rgb(33, 31, 145);
+    font-size: 30px;
+    font-weight: 900;
+}
+.projects_table{
+    margin: 0px 0px 0px 50px;
+}
+.project_text{
+    display: inline;
+    position: relative;
+    top: -15px;
+    right: 35px; 
+}
+.project_image{
+    position: relative;
+    top: 3px;
+    right: -15px;
+}
+
+/* Upcoming events */
+.upcoming_events{
+
+    display: inline-block;
+    position: relative;
+    top: -405px;
+    right: -950px;
+}
+.upcoming_heading{
+    text-align: center;
+    color: rgb(33, 31, 145);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/* Image Gallery */
+.image_gallery{
+    /* background-color: teal; */
+    margin: -350px 0px 0px 0px;
+}
+.gallery_text_1{
+    text-align: center;
+    color: rgb(63, 73, 207);
+    font-size: 35px;
+}
+.gallery_text_2{
+    color: rgb(56, 189, 73);
+}
+.gallery_pics{
+
+}
+
+/* Last Row */
+.last_row{
+    background-color: rgb(105, 110, 126);
+}
+.col_1{
+    color: white;
+    font-size: 18px;
+}
+.img{
+    padding: 0px 15px 0px 15px;
+}
+.useful_links{
+    padding: 0px 0px 190px 0px;
+}
+.link_images{
+    position: relative;
+    top: -260px;
+    right: -360px;
+    padding: 0px 20px 0px 0px;
+}
+.connect_text{
+    position: relative;
+    top: -260px;
+    right: -270px;
+}
+
+/* Copy Rights */
+.copy_rights{
+    background-color: rgb(60, 82, 204);
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+.copy_rights_text{
+    font-size: 15px;
+    margin: 10px 0px 10px 100px;
+}
+
+
+
+
+
