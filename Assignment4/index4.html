@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Home page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body class="body">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img height="90" width="90" src="images/ic_icon.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <li>
+                    <a class="nav-item nav-link active" href="index4.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="EC.html">Environmental Controller</a>
+                        <a class="dropdown-item" href="Vibsen.html">Vibsen</a>
+                        <a class="dropdown-item" href="Iot.html">Internet of Things</a>
+                    </div>
+                </li>
+                </li>
+
+                <li>
+                    <a class="nav-item nav-link" href="#gallery">Gallery</a>
+                </li>
+
+                <li>
+                    <a class="nav-item nav-link" href="who_am_i.html">Who Am I</a>
+                </li>
+
+                <li>
+                    <a class="nav-item nav-link" href="#contact_us">Contact Us</a>
+                </li>
+                <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img height="460px" width="640px" src="images/Carousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img height="460px" width="640px" src="images/Carousel2.jfif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img height="460px" width="640px" src="images/Carousel3.jfif" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Products Card -->
+    <div class="product_cards">
+        <div class="card1 border border-primary" style="width: 18rem;">
+            <img src="images/EC2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Environmental controller is a compact Temperature & Humidity Monitor that covers
+                    all the ambient
+                    parameters of its surroundings...<a href="#"> Click here</a></p>
+            </div>
+        </div>
+
+        <div class="card2 border border-primary" style="width: 18rem;">
+            <img src="images/Vibsen.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">The VIBSEN is a highly effective form factor device that identifies and measures
+                    the occurrence of vibration at its attactched sensors point of...<a href="#"> Click here</a></p>
+            </div>
+        </div>
+
+        <div class="card3 border border-primary" style="width: 18rem;">
+            <img src="images/IoT.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">The BTH-IOT can be powered by 12V as well as 5V.
+                    It has various interfaces and ports SD card slot, MicroSIM etc, with support for GSM. In
+                    addition...<a href="#"> Click here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Completed / Our partners   -->
+    <h3 class="main_text">Projects Completed</h3>
+    <div class="completed_projects">
+        <div class="EC">
+            <img class="projects_images" width="80px" height="80px"
+                src="https://www.pngrepo.com/download/137843/thermometer-temperature-control-tool.png" alt="">
+            <p class="projects_text">Environmental Controllers</p>
+            <p class="status_text">70+ units deployed</p>
+        </div>
+
+        <div class="IOT">
+            <img class="projects_images" width="80px" height="80px"
+                src="https://cdn1.iconfinder.com/data/icons/innovation-technology-2/512/tech_0001-512.png" alt="">
+            <p class="projects_text"> Internet of Things</p>
+            <p class="status_text">36+ units deployed</p>
+        </div>
+
+        <div class="ATC">
+            <img class="projects_images" width="80px" height="80px"
+                src="https://cdn3.iconfinder.com/data/icons/security-128/64/motion_detection_security_detector_danger_guard-512.png"
+                alt="">
+            <p class="projects_text">Vibsen</p>
+            <p class="status_text">200+ units deployed</p>
+        </div>
+    </div>
+
+    <!-- Image Gallery -->
+    <h3 class="image_gallery_text">Image Gallery</h3>
+    <div id="gallery" class="image_gallery">
+
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery1.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery2.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery3.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery4.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery5.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery6.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery7.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery8.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery9.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery10.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery11.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery12.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery13.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery14.jpg" alt="">
+        <img class="image_gallery_images" height="190" width="230" src="images/image_gallery15.jpg" alt="">
+
+
+   </div>
+
+    <!-- Footer -->
+    <div  id="contact_us" class="footer">
+
+        <div class="c1">
+            <h4 class="c1_heading">About us</h4>
+            <h6 class="c1_subheading">Address</h6>
+            <p class="c1_paragraph">Plot # X, Building # Y, DHA phase 2 Islamabad</p>
+            <h6 class="c1_subheading">Email us</h6>
+            <p class="c1_paragraph">zaeem123@live.com</p>
+            <h6 class="c1_subheading">Contact us</h6>
+            <p class="c1_paragraph">0332xxxx195</p>
+        </div>
+
+        <div class="c2">
+            <h4 class="c2_heading">Connect with us</h4>
+            <ul class="c2_list">
+                <li class="c2_items"><a href="#"><img height="30px" width="30px" src="https://image.flaticon.com/icons/svg/1312/1312139.svg" alt=""></a></li>
+                <li class="c2_items"><a href="#"><img height="30px" width="30px" src="https://image.flaticon.com/icons/svg/145/145812.svg" alt=""></a></li>
+                <li class="c2_items"><a href="#"><img height="30px" width="30px" src="https://image.flaticon.com/icons/svg/1384/1384060.svg" alt=""></a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- copyrights_section -->
+    <div class="copyrights_section">
+        <p>Copyright © 2020, Roll# WM12375</p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

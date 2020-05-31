@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(to right, #c31432, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2{
+    text-align: center;
+    color: rgb(168, 74, 206);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table{
+    color: wheat;
+    padding: 90px 0px 0px 0px;
+}
+
+td{
+    border-bottom: solid 1px rgba(131, 10, 245, 0.6);
+    font-size: 30px;
+    padding: 20px 160px 20px 160px;
+}
+
+.links{
+    color: yellow;
+}
