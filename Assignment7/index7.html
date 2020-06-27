@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+
+<body class="body">
+    <script src="app7.js"></script>
+    <table class="main-table">
+        <div class="calculator">
+            <div class="Screen">
+            <input type="text" class="Screen_input" id="result">
+            </div>
+            <tr class="row">
+                <td class="col1" colspan="4"><button class="Btn_C" onclick="clearScreen()"><p class="Btn_text">Clear</p></button></td>
+            </tr>
+
+            <tr class="row">
+                <td class="col2"><button class="Btn" onclick="getNumber('7')"><p class="Btn_text">7</p></button></td>
+                <td class="col2"><button class="Btn" onclick="getNumber('8')"><p class="Btn_text">8</p></button></td>
+                <td class="col2"><button class="Btn" onclick="getNumber('9')"><p class="Btn_text">9</p></button></td>
+                <td class="col2"><button class="Btn" onclick="getNumber('/')"><p class="Btn_text">/</p></button></td>
+            </tr>
+
+            <tr class="row">
+                <td class="col3"><button class="Btn" onclick="getNumber('4')"><p class="Btn_text">4</p></button></td>
+                <td class="col3"><button class="Btn" onclick="getNumber('5')"><p class="Btn_text">5</p></button></td>
+                <td class="col3"><button class="Btn" onclick="getNumber('6')"><p class="Btn_text">6</p></button></td>
+                <td class="col3"><button class="Btn" onclick="getNumber('*')"><p class="Btn_text">X</p></button></td>
+            </tr>
+
+            <tr class="row">
+                <td class="col4"><button class="Btn"  onclick="getNumber('1')"><p class="Btn_text">1</p></button></td>
+                <td class="col4"><button class="Btn" onclick="getNumber('2')"><p class="Btn_text">2</p></button></td>
+                <td class="col4"><button class="Btn" onclick="getNumber('3')"><p class="Btn_text">3</p></button></td>
+                <td class="col4"><button class="Btn" onclick="getNumber('-')"><p class="Btn_text">-</p></button></td>
+            </tr>
+
+            <tr class="row">
+                <td class="col5"><button class="Btn" onclick="getNumber('0')"><p class="Btn_text">0</p></button></td>
+                <td class="col5" colspan="2"><button class="Btn_Eq" onclick="displayOutput()"><p class="Btn_text">=</p></button></td>
+                <td class="col5"><button class="Btn" onclick="getNumber('+')"><p class="Btn_text">+</p></button></td>
+            </tr>
+        </div>
+
+
+    </table>
+</body>
+
+</html>
