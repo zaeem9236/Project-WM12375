@@ -1,0 +1,181 @@
+.body{
+    /* background: linear-gradient(to right, #0f086e88, #29056475, #3a065888); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgba(4, 1, 22, 0.808);
+}
+
+.heading{
+    text-align: center;
+    color:seashell;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.circle{
+    border: 5px solid rgba(0, 0, 0, 0.808);
+    margin: auto;
+    background-color: rgba(25, 100, 150, 0.644);
+    border-radius: 100%;
+    width:  400px;
+    height: 400px;
+    
+}
+
+.Display{
+    /* border: 1px solid red; */
+
+    color: rgb(239, 241, 245);
+    /* display: inline-block; */
+    text-align: center;
+    /* margin: 50px 0px 0px 0px;  */
+    /* display: inline; */
+    margin: auto;
+    margin-top: 25px;
+    /* width: 240px; */
+                                                        
+
+}
+
+.minDisplay,.secDisplay,.msDisplay{
+    /* display: inline; */
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    display: inline-block;    
+}
+
+.displayText{
+    background-color: rgb(6, 7, 58);
+    margin-top: -20px;
+    line-height: 65px;
+    font-size: 50px;
+}
+
+.Buttons{
+    /* border: 1px solid rgb(255, 4, 100); */
+    /* display: inline-block; */
+    /* width: 250px; */
+    text-align: center;
+    margin-top: 25px;
+    height: 100px;
+}
+
+.start,.newLap,.pause{
+    display: inline-block;
+}
+
+.startButton{
+background-color: crimson;
+height: 80px;
+width: 80px;
+border-radius: 100%;
+}
+
+.startButton{
+    background-color: #feb236;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    /* border: none; */
+    outline: none;
+    }
+.startButtonText{
+    color: rgb(4, 35, 41);
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.newLapButton{
+    background-color: rgb(97, 91, 94);
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    margin: 0px 15px 0px 15px;
+    /* border: none; */
+    outline: none;
+    }
+.newLapButtonText{
+    color: rgb(241, 240, 239);
+    font-size: 20px;
+    font-family: serif;
+}
+
+.pauseButton{
+    background-color: #034f84;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    /* border: none; */
+    outline: none;
+    }
+.pauseButtonText{
+    color: rgb(241, 240, 239);
+    font-size: 20px;
+    font-family: serif;
+}
+
+.resetButton{
+    background-color: rgb(107, 11, 11);
+    height: 40px;
+    width: 170px;
+    margin-top: 10px;
+    /* border: none; */
+    outline: none;
+    border-radius: 4%;
+    }
+.resetButtonText{
+    color: rgb(241, 240, 239);
+    font-size: 20px;
+    /* border: 1px solid red; */
+    margin-top: 5px;
+    font-family: serif;
+}
+
+.lapRecord{
+    background-color: rgb(6, 7, 58);
+    font-size: 15px;
+    color: rgb(226, 223, 223);
+    line-height: 25px;
+    text-align: center;
+    width: 210px;
+    height: 30px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 2%; 
+} 
+
+.lapRecordButtons{
+    text-align: center;
+    margin-top: 5px;
+}
+
+ .lapRecordButtonPriv{
+    background-color: rgb(65, 62, 58);
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 100px;
+    outline: none;
+}
+.lapRecordButtonPrivText{
+    color: rgb(0, 238, 247);
+    /* border: 1px solid red; */
+    margin: 0px 0px 0px 0px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.lapRecordButtonNext{
+    background-color: rgb(65, 62, 58);
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 100px;
+    outline: none;
+}
+.lapRecordButtonNextText{
+    color: rgb(0, 238, 247);
+    /* border: 1px solid red; */
+    margin: 0px 0px 0px 0px;
+    font-family: monospace;
+    font-size: 15px;
+} 

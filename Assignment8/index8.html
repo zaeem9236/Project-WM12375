@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+
+<body class="body">
+    <script src="app8.js"></script>
+    <h1 class="heading">Stop Watch</h1>
+
+    <div class="circle">
+
+        <div class="lapRecord">
+            <p id="lapDisplay">Lap Record</p>
+        </div>
+
+        <div class="lapRecordButtons">
+                <button class="lapRecordButtonPriv" id="downButton" onclick="privRecord()"><p class="lapRecordButtonPrivText">Back</p></button>
+                <button class="lapRecordButtonNext" id="upButton" onclick="nextRecord()"><p class="lapRecordButtonNextText">Next</p></button>
+            </div>
+
+        
+        <div class="Display">
+            <div class="minDisplay">
+                <h3 class="displayText" id="sw_Minutes">0</h3>
+            </div>
+            
+            <div class="secDisplay">
+                <h3 class="displayText" id="sw_Seconds">0</h3>
+            </div>
+
+            <div class="msDisplay">
+                <h3 class="displayText" id="sw_MilliSeconds">0</h3>
+            </div>
+        </div>
+
+        <div class="Buttons">
+            <div class="start">
+                <button id="startButtonStatus" class="startButton" onclick="sw_Start()"><p class="startButtonText">Start</p></button>
+            </div>
+
+            <div class="newLap">
+                <button id ="newLapButtonStatus" class="newLapButton" onclick="sw_NewLap()" disabled><p class="newLapButtonText">New Lap</p></button>
+            </div>
+            
+            <div class="pause">
+                <button  class="pauseButton" onclick="sw_Pause()"><p class="pauseButtonText">Pause</p></button>
+            </div>
+            
+            <div class="reset">
+                <button  class="resetButton" onclick="sw_Reset()"><p class="resetButtonText">Reset</p></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
