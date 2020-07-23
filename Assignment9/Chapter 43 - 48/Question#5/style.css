@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(to right, #757f9a, #d7dde8);
+}
+
+.container{
+    text-align: center;
+}
+
+.buttons{
+    text-align: center;
+    width: 100px;
+    padding: 15px 0px 15px 0px;
+    display: inline-block;
+    border: 2px solid Black;
+    background-color: rgb(170, 68, 9);
+    color: wheat;
+}

@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(to right, #757f9a, #d7dde8);
+}
+
+.indexNo{
+    text-align: center;
+    width: 20px;
+}
+
+.studentsName{
+    text-align: center;
+    width: 30px;
+}
+
+.class{
+    text-align: center;
+    width: 20px;
+}
+
+.button{
+    text-align: center;
+    width: 40px;
+}
+

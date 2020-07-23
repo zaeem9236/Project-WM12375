@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment#9</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- CSS Code: Place this code in the document's head (between the <head> -- </head> tags) -->
+        <style>
+            table.customTable {
+                width: 100%;
+                background-color: #FFFFFF;
+                border-collapse: collapse;
+                border-width: 2px;
+                border-color: #7EA8F8;
+                border-style: solid;
+                color: #000000;
+            }
+
+            table.customTable td,
+            table.customTable th {
+                border-width: 2px;
+                border-color: #7EA8F8;
+                border-style: solid;
+                padding: 5px;
+            }
+
+            table.customTable thead {
+                background-color: #7EA8F8;
+            }
+        </style>
+
+        <!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+        <table  id="tableRow" class="customTable">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Students Name</th>
+                    <th>Class</th>
+                    <th> </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="1">
+                    <td id = "indexNo1" class="indexNo">1</td>
+                    <td class="studentsName">Zaeem</td>
+                    <td class="class">6</td>
+                    <td class="button"> <button type="button" onclick="removeRow('1')">Delete</button ></td>
+                </tr>
+                <tr id="2">
+                    <td id = "indexNo2" class="indexNo">2</td>
+                    <td class="studentsName">Hassan</td>
+                    <td class="class">10</td>
+                    <td class="button"> <button type="button" onclick="removeRow('2')">Delete</button> </td>
+                </tr>
+                <tr id="3">
+                    <td id = "indexNo3" class="indexNo">3</td>
+                    <td class="studentsName">Talha</td>
+                    <td class="class">12</td>
+                    <td class="button"> <button type="button" onclick="removeRow('3')">Delete</button> </td>
+                </tr>
+                <tr id="4">
+                    <td id = "indexNo4" class="indexNo">4</td>
+                    <td class="studentsName">Farhan</td>
+                    <td class="class">9</td>
+                    <td class="button"> <button type="button" onclick="removeRow('4')">Delete</button> </td>
+                </tr>
+                <tr id="5">
+                    <td id = "indexNo5" class="indexNo">5</td>
+                    <td class="studentsName">Ali</td>
+                    <td class="class">9</td>
+                    <td class="button"> <button type="button" onclick="removeRow('5')">Delete</button> </td>
+                </tr>
+                <tr id="6">
+                    <td id = "indexNo6" class="indexNo">6</td>
+                    <td class="studentsName">Adnan</td>
+                    <td class="class">11</td>
+                    <td class="button"> <button type="button" onclick="removeRow('6')">Delete</button> </td>
+                </tr>
+                <tr id="7">
+                    <td id = "indexNo7" class="indexNo">7</td>
+                    <td class="studentsName">Faisal</td>
+                    <td class="class">9</td>
+                    <td class="button"> <button type="button" onclick="removeRow('7')">Delete</button> </td>
+                </tr>
+                <tr id="8">
+                    <td id = "indexNo8" class="indexNo">8</td>
+                    <td class="studentsName">Zubair</td>
+                    <td class="class">6</td>
+                    <td class="button"> <button type="button" onclick="removeRow('8')">Delete</button> </td>
+                </tr>
+                <tr id="9">
+                    <td id = "indexNo9" class="indexNo">9</td>
+                    <td class="studentsName">Osama</td>
+                    <td class="class">12</td>
+                    <td class="button"> <button type="button" onclick="removeRow('9')">Delete</button> </td>
+                </tr>
+                <tr id="10">
+                    <td id = "indexNo10" class="indexNo">10</td>
+                    <td class="studentsName">Muneeb</td>
+                    <td class="class">4</td>
+                    <td class="button"> <button type="button" onclick="removeRow('10')">Delete</button> </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+
+</html>

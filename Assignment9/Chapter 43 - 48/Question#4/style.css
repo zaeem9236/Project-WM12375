@@ -1,0 +1,13 @@
+body{
+    /* background: linear-gradient(to right, #757f9a, #d7dde8); */
+}
+
+.mobilePic{
+    width: 300px; 
+    height: 250px;
+}
+
+.picture {
+    text-align: center;
+    /* border: 2px solid red; */
+}
