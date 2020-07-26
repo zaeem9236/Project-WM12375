@@ -1,0 +1,49 @@
+.body {
+    /* background: linear-gradient(to right, #0f086e88, #29056475, #3a065888); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgba(4, 1, 22, 0.808);
+}
+
+.heading {
+    color: azure;
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.li {
+    color: white;
+    font-size: larger;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(231, 125, 53, 0.719);
+    list-style-type: none;
+
+}
+
+.btn-outline-danger {
+    float: right;
+    margin-right: 10px;
+}
+
+.btn-outline-warning {
+    float: right;
+    margin-right: 50px;
+}
+
+.editButton {
+    padding: 10px 10px 10px 10px;
+}
+
+.delButton {
+    padding: 10px 10px 10px 10px;
+}
+
+.form-control{
+    margin: 0px 0px 0px 10px;
+}
+
+.btn-danger{
+    margin-right: 10px;
+}
