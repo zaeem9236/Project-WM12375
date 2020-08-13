@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 
 <head>
-    <title>ToDo App</title>
-    <link rel="stylesheet" href="style10.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>ToDo App</title>
+
+  <link rel="icon" href="https://to-do-cdn.microsoft.com/static-assets/c87265a87f887380a04cf21925a56539b29364b51ae53e089c3ee2b2180148c6/icons/logo.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="style10.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCUWeg-wfP0nJeu7hCwR-LuqboUqPAoMWE",
+      authDomain: "project-wm12375.firebaseapp.com",
+      databaseURL: "https://project-wm12375.firebaseio.com",
+      projectId: "project-wm12375",
+      storageBucket: "project-wm12375.appspot.com",
+      messagingSenderId: "413184626774",
+      appId: "1:413184626774:web:71b5a5aed1752b91382bf7",
+      measurementId: "G-M60SKWC2GD"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
 </head>
 
-<body class="body">
-    <script src="app10.js"></script>
-    <h1 class="heading">ToDo App</h1>
+<body onload="pageRefresh()" class="body">
+  <script src="app10.js"></script>
+  <h1 class="heading">ToDo App</h1>
 
-    <div class="input-group">
-        <input type="text" id="text-input" class="form-control" placeholder="Write your task here...">
-        <button id="add" onClick="add()" class="btn btn-success">Add</button>
-        <button id="deleteAll" onClick="deleteAll()" class="btn btn-danger">Delete All</button>
-    </div>
+  <div class="input-group">
+    <input type="text" id="text-input" class="form-control" placeholder="Write your task here...">
+    <button id="add" onClick="add()" class="btn btn-success">Add</button>
+    <button id="deleteAll" onClick="deleteAll()" class="btn btn-danger">Delete All</button>
+  </div>
 
-    <div>
-        <ul id="list">
+  <div>
+    <ul id="list">
 
-        </ul>
-    </div>
-    <script src="app10.js"></script>
+    </ul>
+  </div>
+  <script src="app10.js"></script>
 </body>
 
 </html>
