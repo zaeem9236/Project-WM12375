@@ -17,11 +17,12 @@ function Header() {
 
                 <div className='searchBar1'>
                     <SearchIcon className='searchBar1_icon'/>
-                    <input className='searchBar1_Input' type='text'></input>
+                    <input className='searchBar1_Input' type='text' placeholder='Search city, area or locsdffds...'></input>
+                    <KeyboardArrowDownIcon className='down_arrow1' />
                 </div>
 
                 <div className='searchBar2'>
-                    <input className='searchBar2_Input' type='text'></input>
+                    <input className='searchBar2_Input' type='text' placeholder='Find Cars, Mobile Phones and more...'></input>
                     <div className='searchButtonBox'>
                     <SearchIcon className='searchBar2_icon'/>
                     </div>
@@ -39,7 +40,7 @@ function Header() {
             <div className='bottom_header'>
                 <div className='all_categories'>
                     <p className='all_categories_text' > ALL CATEGORIES</p>
-                    <KeyboardArrowDownIcon className='down_arrow'/>
+                    <KeyboardArrowDownIcon className='down_arrow2'/>
                 </div>
 
                 <div className='popular_categories'>

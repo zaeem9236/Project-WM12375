@@ -34,6 +34,13 @@
     outline: none;
 }
 
+.down_arrow1{
+    /* background-color: rgb(1, 1, 1); */
+    color: rgb(1, 39, 43);
+    font-size: 35px !important;
+    margin-top: 5px;
+}
+
 
 .searchBar1_icon{
     /* background-color: coral; */
@@ -152,8 +159,8 @@
 
 } 
 
-.down_arrow{
-    color: rgb(43, 1, 1);
+.down_arrow2{
+    color: rgb(1, 39, 43);
     font-size: 38px !important;
     margin-left: 5px;
     margin-bottom: 15px;
@@ -175,3 +182,6 @@
     font-weight: 460;
     color: rgb(1, 39, 43);
 }
+.popular_categories_text:hover {
+    color: rgb(43, 155, 230);
+  }
