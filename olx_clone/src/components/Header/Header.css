@@ -1,9 +1,10 @@
 .header{
     height: 70px;
-    background-color: cornsilk;
+    background-color: rgb(247, 248, 250);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-bottom: 2px solid rgb(226, 226, 231);
 }
 
 .olx_logo{
@@ -28,15 +29,17 @@
     color: rgb(46, 46, 49);
     padding-left: 20px;
     font-size: 17px;
-    background-color: cornsilk;
+    background-color: rgb(247, 248, 250);
     border: none;
     outline: none;
 }
 
+
 .searchBar1_icon{
     /* background-color: coral; */
-    width: 28px;
-    padding: 8px 0px 8px 6px;
+    font-size: 33px !important;
+    color: rgb(63, 63, 70);
+    margin: 6px 0px 0px 8px;
 }
 
 
@@ -56,7 +59,7 @@
     color: rgb(46, 46, 49);
     padding-left: 20px;
     font-size: 17px;
-    background-color: cornsilk;
+    background-color: rgb(247, 248, 250);
     border: none;
     outline: none;
 }
@@ -72,6 +75,103 @@
 
 .searchBar2_icon{
     /* background-color: coral; */
-    width: 26px;
-    color: rgb(255, 0, 0);
+    font-size: 33px !important;
+    color: rgb(234, 234, 240);
+    margin-left: 5px;
+}
+
+
+/* Login Button 2 */
+
+.login_Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    /* background-color: lightgreen; */
+    
+}
+.login_Button{
+    color: rgb(1, 39, 43);
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(1, 39, 43);
+}
+
+
+/* Sell Button  */
+
+.sell_Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    /* background-color: lightgreen; */
+    
+}
+    
+
+.sell_Button{
+    color: rgb(1, 39, 43);
+    font-size: 18px;
+    font-weight: 600;
+    
+    border: 5px solid red;
+    border-radius: 50px;
+    /* border-image-source: linear-gradient(10deg, rgb(243, 0, 0) 20%, rgb(0,143,104) 60%, rgb(250,224,66) 40%);
+    border-image-slice: 1;  */
+
+
+
+}
+
+
+/* bottom_header */
+.bottom_header{
+    padding-top: 15px;
+    height: 37px;
+    background-color: rgb(247, 248, 250);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all_categories{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* border: 1px solid red; */
+    width: 14%;
+}
+
+.all_categories_text{
+    color: rgb(1, 39, 43);
+    margin-top: 9px;
+    font-size: 15px;
+    font-weight: 640;
+
+} 
+
+.down_arrow{
+    color: rgb(43, 1, 1);
+    font-size: 38px !important;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-weight: lighter !important; 
+    /* background-color: salmon; */
+}
+
+.popular_categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin-right: 40%;
+    /* border: 1px solid red; */
+}
+
+.popular_categories_text{
+    font-size: 14px;
+    font-weight: 460;
+    color: rgb(1, 39, 43);
 }
