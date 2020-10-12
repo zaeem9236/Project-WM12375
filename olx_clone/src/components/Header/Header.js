@@ -14,7 +14,8 @@ function Header() {
                 <img className='olx_logo' src={olx_logo}></img>
 
                 <div className='searchBar1'>
-                    <img className='searchBar1_icon' src={search_icon}></img>
+                    {/* <img className='searchBar1_icon' src={search_icon}></img> */}
+                    <img className='bi bi-search'></img>
                     <input className='searchBar1_Input' type='text'></input>
                 </div>
 
