@@ -1,0 +1,89 @@
+
+/* *{
+    border: 1px solid black !important;
+} */
+
+.body{
+    /* background-color: darkorange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#sign-up-section{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#sign-up{
+    color: rgb(0, 14, 212);
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.modal-title{
+    /* border: 1px solid red !important; */
+    font-size: x-large;
+    width: 100vw;
+}
+
+.sign-in-up{
+    /* background-color: darkseagreen; */
+    width: 100%;
+    margin-top: 5%;
+    height: 300px;
+}
+
+#usr-login,#pwd-login{
+    width: 80% !important;
+    height: 50px !important;
+    margin: auto;
+}
+
+ .sign-in-up-content{
+   /* background-color: darkgrey; */
+   width: 50%;
+   min-width: 400px;
+   min-height: 50%;
+
+ 
+} 
+
+.login-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px !important;
+}
+
+#login-btn{
+    width: 80% !important;
+    height: 40px;
+}
+
+.facebook-login-btn{
+    /* background-color: #3b5998; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important;
+}
+
+#facebook-login-btn{
+    background-color: #3b5998;
+    width: 80% !important;
+    height: 40px;
+    color: rgb(246, 238, 243);
+    outline: #3b5998;
+    border-color: none;
+}
+
+#facebook_text{
+    font-weight: bolder;
+}
+
+#staticBackdrop{
+    min-width: 300px !important;
+}
+
+

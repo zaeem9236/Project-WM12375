@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Assignment#12</title>
+  <link rel="stylesheet" href="style12.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyCUWeg-wfP0nJeu7hCwR-LuqboUqPAoMWE",
+      authDomain: "project-wm12375.firebaseapp.com",
+      databaseURL: "https://project-wm12375.firebaseio.com",
+      projectId: "project-wm12375",
+      storageBucket: "project-wm12375.appspot.com",
+      messagingSenderId: "413184626774",
+      appId: "1:413184626774:web:71b5a5aed1752b91382bf7",
+      measurementId: "G-M60SKWC2GD"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+
+<body class="body">
+  <div class="login-page">
+
+
+
+    <!-- SignIn / SignUp -->
+    <div class="sign-in-up">
+      <div class="sign-in-up-content">
+        
+        <!-- Login Email -->
+        <div class="form-group">
+          <!-- <label for="usr-login">Email</label> -->
+          <input type="email" class="form-control" id="usr-login" placeholder="Email">
+        </div>
+        
+        <!-- Login Password -->
+        <div class="form-group">
+          <!-- <label for="pwd">Password:</label> -->
+          <input type="password" class="form-control" id="pwd-login" placeholder="Password">
+        </div>
+
+        <!-- Login Button -->
+        <div class="login-btn">
+          <button type="button" class="btn btn-success" id="login-btn" onclick="login()">Login</button>
+        </div>
+        
+        <!-- Dont't have account? Sign up -->
+        <p id="sign-up-section" >Dont have accont? <span id="sign-up" data-toggle="modal" data-target="#staticBackdrop"> Sign up </span></p>
+        
+        <!-- Continue with Facebook -->
+        <div class="facebook-login-btn">
+        <button type="button" class="btn btn-primary" id="facebook-login-btn"> Continue with <span id="facebook_text">Facebook</span> </button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h5 class="modal-title" id="staticBackdropLabel">Sign up using Email</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="signup_name">
+            </div>
+            <div class="form-group">
+              <label for="usr">Email</label>
+              <input type="text" class="form-control" id="signup_email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password</label>
+              <input type="password" class="form-control" id="signup_pwd">
+            </div>
+            <div class="form-group">
+              <label for="c-pwd">Conform Password</label>
+              <input type="password" class="form-control" id="signup_cpwd">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary " onclick="signup()">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <script src="app12.js"></script>
+</body>
+</body>
+
+</html>
