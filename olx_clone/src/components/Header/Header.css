@@ -5,17 +5,24 @@
     align-items: center;
     justify-content: space-around;
     border-bottom: 2px solid rgb(226, 226, 231);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .olx_logo{
     height: 27px;
     width: 38px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
 /* Search Bar 1 */
 .searchBar1{
     width: 20%;
+    min-width: 300px;
+    margin-right:20px;
     display: flex;
     flex-direction: row;
     background-color: coralsilk ;
@@ -103,6 +110,8 @@
     font-size: 18px;
     font-weight: 600;
     border-bottom: 2px solid rgb(1, 39, 43);
+    margin-right: 15px;
+    margin-left: 25px;
 }
 
 
@@ -113,6 +122,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+    margin-right: 52px;
+    margin-left: 8px;
+    min-width: 100px;
     /* background-color: lightgreen; */
     
 }
@@ -120,27 +132,28 @@
 
 .sell_Button{
     color: rgb(1, 39, 43);
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
+    padding: 3px 15px 5px 15px;
     
-    border: 5px solid red;
+    border: 6px solid rgb(255, 206, 50);
+    border-top: 6px solid rgb(35, 229, 219);
+    border-right: 6px solid rgb(58, 119, 255);
     border-radius: 50px;
-    /* border-image-source: linear-gradient(10deg, rgb(243, 0, 0) 20%, rgb(0,143,104) 60%, rgb(250,224,66) 40%);
-    border-image-slice: 1;  */
-
-
-
+    
 }
 
 
 /* bottom_header */
 .bottom_header{
     padding-top: 15px;
-    height: 37px;
+    height: 42px;
     background-color: rgb(247, 248, 250);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
+    top:70px;
 }
 
 .all_categories{
@@ -165,6 +178,17 @@
     margin-left: 5px;
     margin-bottom: 15px;
     font-weight: lighter !important; 
+    /* transition-duration: 1s !important; */
+    /* background-color: salmon; */
+}
+.down_arrow2_modified{
+    color: rgb(1, 39, 43);
+    font-size: 38px !important;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-weight: lighter !important; 
+    /* transition-duration: 1s !important; */
+    transform: rotate(180deg) !important;
     /* background-color: salmon; */
 }
 
@@ -185,3 +209,17 @@
 .popular_categories_text:hover {
     color: rgb(43, 155, 230);
   }
+
+  .drop_down_list{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: lightcoral;
+      position: absolute;
+      top:110px;
+      left:20px
+  }
+  
+  .drop_down_list_hide{
+    display: none;
+}
