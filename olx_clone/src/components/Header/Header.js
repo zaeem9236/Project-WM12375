@@ -44,7 +44,7 @@ function Header() {
                 </div>
 
                 <div className='popular_categories'>
-                    <p className='popular_categories_text'>Mobile Phones</p>
+                    <p className='popular_categories_text'>Mobile Phoness</p>
                     <p className='popular_categories_text'>Cars</p>
                     <p className='popular_categories_text'>Motorcycles</p>
                     <p className='popular_categories_text'>Houses</p>
