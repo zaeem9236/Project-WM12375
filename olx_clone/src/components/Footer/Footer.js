@@ -1,12 +1,16 @@
 import React from 'react';
 import './Footer.css'
 import topFooter from './olx_top_footer.jpg';
+import google_playstore from './google_play.png';
+import apple_appstore from './apple_app_store.png';
 
 function Footer() {
     return (
         <React.Fragment>
             <div className='top_footer'>
                 <img src={topFooter} ></img>
+                <img src={google_playstore} className='google_playstore' ></img>
+                <img src={apple_appstore} className='google_playstore' ></img>
             </div>
 
             <div className='middle_footer' >
