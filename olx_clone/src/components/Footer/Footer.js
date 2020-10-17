@@ -11,7 +11,7 @@ function Footer() {
 
             <div className='middle_footer' >
                 <ul>
-                    <li></li>
+                    <li className='footer_heading'></li>
                     <li></li>
                     <li></li>
                     <li></li>
