@@ -27,12 +27,18 @@ function Footer() {
                 </ul>
                 
                 <ul>
-                    <p>col3</p>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
 
                 <ul>
-                    <p>col4</p>
-
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
 
                 <ul>
