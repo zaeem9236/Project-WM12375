@@ -10,7 +10,7 @@ function Footer() {
             <div className='top_footer'>
                 <img src={topFooter} ></img>
                 <img src={google_playstore} className='google_playstore' ></img>
-                <img src={apple_appstore} className='google_playstore' ></img>
+                <img src={apple_appstore} className='apple_appstore' ></img>
             </div>
 
             <div className='middle_footer' >

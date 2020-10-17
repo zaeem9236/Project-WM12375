@@ -1,3 +1,19 @@
+.google_playstore{
+    width: 150px;
+    height: auto;
+    position: relative;
+    left: 92%;
+    bottom: 100px;
+}
+
+.apple_appstore{
+    width: 130px;
+    height: auto;
+    position: relative;
+    left: 62%;
+    bottom: 100px;
+}
+
 .middle_footer{
     margin-top: -4px;
     margin-bottom: 15px;
