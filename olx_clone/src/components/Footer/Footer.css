@@ -85,6 +85,7 @@
 
 .footer_subheading:hover{
     color: rgb(35, 37, 37);
+    cursor: pointer;
 }
 
 .bottom_footer{
