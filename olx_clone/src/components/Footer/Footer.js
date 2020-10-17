@@ -10,39 +10,41 @@ function Footer() {
             </div>
 
             <div className='middle_footer' >
-                <ul>
-                    <li className='footer_heading'></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <ul className='footer_col_1'>
+                    <li className='footer_heading'>POPULAR CATEGORIES</li>
+                    <li>Cars</li>
+                    <li>Flats for rent</li>
+                    <li>Jobs</li>
+                    <li>Mobile Phones</li>
                 </ul>
 
-                <ul>
-                    <li className='footer_heading'></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <ul className='footer_col_2'>
+                    <li className='footer_heading'>TRENDING SEARCHES</li>
+                    <li>Bikes</li>
+                    <li>Watches</li>
+                    <li>Books</li>
+                    <li>Dogs</li>
                 </ul>
                 
-                <ul>
-                    <li className='footer_heading'></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <ul className='footer_col_3'>
+                    <li className='footer_heading'>ABOUT US</li>
+                    <li>About OLX Group</li>
+                    <li>OLX Blog</li>
+                    <li>Contact Us</li>
+                    <li>OLX for Businesses</li>
                 </ul>
 
-                <ul>
-                    <li className='footer_heading'></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <ul className='footer_col_4'>
+                    <li className='footer_heading'>OLX</li>
+                    <li>Help</li>
+                    <li>Sitemap</li>
+                    <li>Legal & Privacy information</li>
                 </ul>
 
-                <ul>
-                    <p>col5</p>
+                <ul className='footer_col_5'>
+                    <li className='footer_heading' >FOLLOW US</li>
+                    <li>b</li>
+                    <li>c</li>
                 </ul>
             </div>
 
