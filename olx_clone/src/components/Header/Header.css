@@ -242,8 +242,9 @@
       width:94%;
       display: flex;
       flex-direction: row;
-      align-items: center;
-      background-color: rgb(47, 87, 168);
+      justify-content: space-between;
+      align-items: flex-start;
+      background-color: rgb(247, 248, 250);
       position: absolute;
       top:110px;
       /* left:20px */
@@ -253,6 +254,32 @@
       background-color: lightcoral;
       display: flex;
       flex-direction: column;
+      list-style-type: none;
+  }
+
+  .col_2{
+      background-color: lightcoral;
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+  }
+
+  .col_3{
+      background-color: lightcoral;
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+  }
+
+  .col_4{
+      background-color: lightcoral;
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+  }
+
+  .ul_heading{
+      background-color: lightseagreen;
   }
 
   
