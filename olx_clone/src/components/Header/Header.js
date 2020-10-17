@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import './Header.css';
 import olx_logo from './olx_logo.png';
-import capture from './Capture.JPG';
-import search_icon from './search_icon.png';
+// import capture from './Capture.JPG';
+// import search_icon from './search_icon.png';
 import SearchIcon from '@material-ui/icons/Search';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
@@ -15,7 +15,7 @@ function Header() {
             {/* <img src={capture}></img> */}
 
             <div className='header'>
-                <img className='olx_logo' src={olx_logo}></img>
+                <img className='olx_logo' src={olx_logo} alt=''></img>
 
                 <div className='searchBar1'>
                     <SearchIcon className='searchBar1_icon'/>
