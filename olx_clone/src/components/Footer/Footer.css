@@ -1,5 +1,6 @@
 .middle_footer{
     margin-top: -4px;
+    margin-bottom: 15px;
     background-color: rgb(235, 238, 239);
     display: flex;
     flex-direction: row;
@@ -13,10 +14,10 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    color: rgb(1, 39, 43);
+    color: rgb(89, 110, 121);
     min-width: 250px;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     /* border: 1px solid red; */
 
@@ -26,10 +27,10 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    color: rgb(1, 39, 43);
+    color: rgb(89, 110, 121);
     min-width: 250px;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     /* border: 1px solid red; */
 }
@@ -38,10 +39,10 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    color: rgb(1, 39, 43);
+    color: rgb(89, 110, 121);
     min-width: 250px;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     /* border: 1px solid red; */
 }
@@ -50,10 +51,10 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    color: rgb(1, 39, 43);
+    color: rgb(89, 110, 121);
     min-width: 250px;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     /* border: 1px solid red; */
 }
@@ -62,20 +63,28 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    color: rgb(1, 39, 43);
+    color: rgb(89, 110, 121);
     min-width: 250px;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     /* border: 1px solid red; */
 }
 
 .footer_heading{
-    color: rgb(1, 39, 43);
-    font-size: 15px;
+    color: rgb(66, 77, 78);
+    font-size: 14px;
     font-weight: 650;
-    margin-top: 5px ;
+    margin-top: 10px ;
     margin-bottom: 8px ;
+}
+
+.footer_subheading{
+    margin-bottom: 5px;
+}
+
+.footer_subheading:hover{
+    color: rgb(35, 37, 37);
 }
 
 .bottom_footer{

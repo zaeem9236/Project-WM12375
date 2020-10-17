@@ -12,33 +12,33 @@ function Footer() {
             <div className='middle_footer' >
                 <ul className='footer_col_1'>
                     <li className='footer_heading'>POPULAR CATEGORIES</li>
-                    <li>Cars</li>
-                    <li>Flats for rent</li>
-                    <li>Jobs</li>
-                    <li>Mobile Phones</li>
+                    <li className='footer_subheading' >Cars</li>
+                    <li className='footer_subheading' >Flats for rent</li>
+                    <li className='footer_subheading' >Jobs</li>
+                    <li className='footer_subheading' >Mobile Phones</li>
                 </ul>
 
                 <ul className='footer_col_2'>
                     <li className='footer_heading'>TRENDING SEARCHES</li>
-                    <li>Bikes</li>
-                    <li>Watches</li>
-                    <li>Books</li>
-                    <li>Dogs</li>
+                    <li className='footer_subheading' >Bikes</li>
+                    <li className='footer_subheading' >Watches</li>
+                    <li className='footer_subheading' >Books</li>
+                    <li className='footer_subheading' >Dogs</li>
                 </ul>
                 
                 <ul className='footer_col_3'>
                     <li className='footer_heading'>ABOUT US</li>
-                    <li>About OLX Group</li>
-                    <li>OLX Blog</li>
-                    <li>Contact Us</li>
-                    <li>OLX for Businesses</li>
+                    <li className='footer_subheading'>About OLX Group</li>
+                    <li className='footer_subheading'>OLX Blog</li>
+                    <li className='footer_subheading'>Contact Us</li>
+                    <li className='footer_subheading'>OLX for Businesses</li>
                 </ul>
 
                 <ul className='footer_col_4'>
                     <li className='footer_heading'>OLX</li>
-                    <li>Help</li>
-                    <li>Sitemap</li>
-                    <li>Legal & Privacy information</li>
+                    <li className='footer_subheading'>Help</li>
+                    <li className='footer_subheading'>Sitemap</li>
+                    <li className='footer_subheading'>Legal & Privacy information</li>
                 </ul>
 
                 <ul className='footer_col_5'>
