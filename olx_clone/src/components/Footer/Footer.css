@@ -1,3 +1,20 @@
-.cheading{
-    color: tomato;
+.middle_footer{
+    margin-top: -4px;
+    background-color: rgb(235, 238, 239);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
+
+.middle_footer > div{
+    border: 1px solid red;
+    width: 260px;
+}
+
+.bottom_footer{
+    background-color: rgb(0, 47, 52);
+    height: 50px;
+}
+
