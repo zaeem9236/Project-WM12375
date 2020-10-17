@@ -9,8 +9,10 @@ function Footer() {
         <React.Fragment>
             <div className='top_footer'>
                 <img src={topFooter} ></img>
-                <img src={google_playstore} className='google_playstore' ></img>
-                <img src={apple_appstore} className='apple_appstore' ></img>
+                <img src={google_playstore} className='google_playstore'
+                onClick={()=>{alert('play store link')}} ></img>
+                <img src={apple_appstore} className='apple_appstore' 
+                onClick={()=>{alert('appstore link')}}></img>
             </div>
 
             <div className='middle_footer' >
