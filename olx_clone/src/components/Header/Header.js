@@ -39,7 +39,7 @@ function Header() {
                 </div>
             </div>
 
-            {/* <div className='bottom_header'>
+            <div className='bottom_header'>
                 <div className='all_categories'>
                     <p className='all_categories_text' > ALL CATEGORIES</p>
                     <KeyboardArrowDownIcon 
@@ -60,35 +60,35 @@ function Header() {
             </div>
 
             <div className='drop_down_categories'>
-                    <ul className={`drop_down_list ${drop_down_visible ? '' : 'drop_down_list_hide'}`}>
-                        <li>Cycle</li>
-                        <li>Car</li>
-                        <li>Phones</li>
-                        <li>Radio</li>
-                        <li>TV</li>
-                        <li>Microwave</li>
-                        <li>Laptops</li>
-                        <li>Desktops</li>
-                        <li>Watches</li>
-                        <li>Furniture</li>
-                        <li>Houses</li>
-                        <li>FLats</li>
-                        <li>Clothes</li>
-                        <li>Ac</li>
-                        <li>Lamps</li>
-                        <li>xyz</li>
-                    </ul>
+                    <div className={`drop_down_list ${drop_down_visible ? '' : 'drop_down_list_hide'}`}>
+                        <ul className='col_1'>
+                            <li>house</li>
+                            <li>flat</li>
+                            <li>plot</li>
+                        </ul>
 
-                    <div>
-                        <h1>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h1>
-                        <h1>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h1>
-                        <h1>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h1>
-                        <h1>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h1>
-                        
+                        <ul className='col_2'>
+                            <li>hatchback</li>
+                            <li>suv</li>
+                            <li>jeep</li>
+                        </ul>
 
-                        
+                        <ul className='col_3'>
+                            <li>telephone</li>
+                            <li>mobile</li>
+                            <li>tablets</li>
+                        </ul>
+
+                        <ul className='col_4'>
+                            <li>pajama</li>
+                            <li>clothes</li>
+                            <li>pants</li>
+                        </ul>
                     </div>
-                </div> */}
+
+                </div>
+
+               
         
         </React.Fragment>
     );
