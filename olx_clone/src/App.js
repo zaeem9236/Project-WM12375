@@ -12,9 +12,12 @@ function App() {
       <div className='main_div'>
         <Header></Header>
 
-        <img src={Card_pic} alt=''></img>
+        {/* <img src={Card_pic} alt=''></img> */}
         
-        <Cards></Cards>
+        <div className='featured_items_display'>
+          <Cards></Cards>
+        </div>
+        
 
         <div>
           <h1>pakhair raghalay</h1>
