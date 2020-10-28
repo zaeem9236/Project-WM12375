@@ -4,11 +4,15 @@ import { Footer } from './components/Footer/Footer.js';
 import  {Cards } from './components/Cards/Card.js';
 import './App.css';
 
+import Card_pic from './Card.JPG';
+
 function App() {
   return (
     <React.Fragment>
       <div className='main_div'>
         <Header></Header>
+
+        <img src={Card_pic} alt=''></img>
         
         <Cards></Cards>
 
