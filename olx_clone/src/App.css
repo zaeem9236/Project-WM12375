@@ -30,4 +30,35 @@
 
 .featured_products{
   margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.fresh_recommendations{
+  
+  /* background-color: rgb(235, 238, 239); */
+  margin-top: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding: 10px 0px 60px 0px;
+  border-radius: 4px;
+  width: 94%;
+}
+
+.fresh_title{
+  margin-left: 10px;
+  font-size: 28px;
+  font-weight: 500;
+  color: rgb(58, 58, 63);
+  /* border: 1px solid red; */
+}
+
+.fresh_products{
+  
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
