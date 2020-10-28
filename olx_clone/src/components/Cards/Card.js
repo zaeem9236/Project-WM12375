@@ -12,10 +12,10 @@ function Cards(props) {
                     <div><p className='featured_text'>FEATURED</p></div>
                     <div className='like'><FavoriteBorderIcon /></div>
                 </div>
-                <div className='card_image'><img src='https://picsum.photos/seed/picsum/200/300' alt=''></img></div>
+                <div className='card_image'><img src={props.picture} alt=''></img></div>
                 <div className='card_description'>
-                    <h4 className='card_price'> Rs 2,200</h4>
-                    <h6 className='card_text'>Kids sofa Chair bean bag</h6>
+                    <h4 className='card_price'> {props.price} </h4>
+                    <h6 className='card_text'> {props.description}</h6>
                 </div>
             </div>
         </React.Fragment>

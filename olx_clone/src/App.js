@@ -19,7 +19,9 @@ function App() {
         <div className='featured_items_display'>
           <div className='featured_items_title'><p>Featured Items</p></div>
           <div className='featured_products'>
-            <Cards picture='https://picsum.photos/seed/picsum/200/300' price='10000' description='general pic' 
+            <Cards picture={featured_products[0].picture} 
+            price={featured_products[0].price} 
+            description={featured_products[0].description} 
             />
             </div>
         </div>
