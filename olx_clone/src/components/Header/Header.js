@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './Header.css';
 import olx_logo from './olx_logo.png';
-// import capture from './Capture.JPG';
+import olx_header_image from './olx_header_image.JPG';
 // import search_icon from './search_icon.png';
 import SearchIcon from '@material-ui/icons/Search';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
@@ -220,6 +220,9 @@ function Header() {
 
                 </div>
 
+            <div className='header_image'>
+                <img src={olx_header_image} alt=''/>
+            </div>
                
         
         </React.Fragment>

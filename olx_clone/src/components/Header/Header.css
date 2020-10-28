@@ -306,3 +306,7 @@
   .drop_down_list_hide{
     display: none;
 }
+
+.header_image > img{
+    margin-top: 70px;
+}
