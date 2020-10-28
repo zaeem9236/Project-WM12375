@@ -2,7 +2,9 @@ import React from 'react';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import './Card.css';
 
-function Cards() {
+function Cards(props) {
+    console.log('inside cards........');
+    console.log(props);
     return (
         <React.Fragment>
             <div className='card_div'>

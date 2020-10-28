@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from './components/Header/Header.js';
 import { Footer } from './components/Footer/Footer.js';
 import { Cards } from './components/Cards/Card.js';
+import { featured_products, products } from './components/Products/Products.js';
 import './App.css';
 
 import Card_pic from './Card.JPG';
@@ -11,12 +12,16 @@ function App() {
     <React.Fragment>
       <div className='main_div'>
         <Header></Header>
-
+        {console.log(featured_products[0].picture)};
+        {/* {console.log(products)}; */}
         {/* <img src={Card_pic} alt=''></img> */}
         
         <div className='featured_items_display'>
           <div className='featured_items_title'><p>Featured Items</p></div>
-          <div className='featured_products'><Cards></Cards></div>
+          <div className='featured_products'>
+            <Cards picture='https://picsum.photos/seed/picsum/200/300' price='10000' description='general pic' 
+            />
+            </div>
         </div>
         
 
