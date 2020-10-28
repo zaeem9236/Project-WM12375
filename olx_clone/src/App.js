@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from './components/Header/Header.js';
 import { Footer } from './components/Footer/Footer.js';
-import  {Cards } from './components/Cards/Card.js';
+import { Cards } from './components/Cards/Card.js';
 import './App.css';
 
 import Card_pic from './Card.JPG';
@@ -15,7 +15,8 @@ function App() {
         {/* <img src={Card_pic} alt=''></img> */}
         
         <div className='featured_items_display'>
-          <Cards></Cards>
+          <div className='featured_items_title'><p>Featured Items</p></div>
+          <div className='featured_products'><Cards></Cards></div>
         </div>
         
 
