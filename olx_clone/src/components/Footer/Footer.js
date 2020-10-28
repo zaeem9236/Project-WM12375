@@ -8,7 +8,7 @@ function Footer() {
     return (
         <React.Fragment>
             <div className='top_footer'>
-                <img src={topFooter} alt='' ></img>
+                <img className='top_footer' src={topFooter} alt='' ></img>
                 <img src={google_playstore} alt='' className='google_playstore'
                 onClick={()=>{alert('play store link')}} ></img>
                 <img src={apple_appstore} alt='' className='apple_appstore' 
@@ -55,7 +55,7 @@ function Footer() {
             </div>
 
             <div className='bottom_footer'>
-                <p>botton footer</p>
+                <p>OlX clone | made by Zaeem | Roll No. WM 12375</p>
             </div>
         </React.Fragment>
     );
