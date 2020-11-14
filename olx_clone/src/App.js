@@ -5,7 +5,7 @@ import { Cards } from './components/Cards/Card.js';
 import { featured_products, products } from './components/Products/Products.js';
 import './App.css';
 
-import Card_pic from './Card.JPG';
+// import Card_pic from './Card.JPG';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         {/* <img src={Card_pic} alt=''></img> */}
 
         <div className='featured_items_display'>
-          <div className='featured_items_title'><p>Featured Items</p></div>
+          <div className='featured_items_title'><p>Fresh Recommendations</p></div>
           <div className='featured_products'>
             {featured_products.map(function (featured_products_Obj, index) {
               return (
